@@ -3,7 +3,7 @@ import React from 'react'
 const VideoPlayer = () => {
     const videoId = "BNk-yaFguNs"
   return (
-    <div className="left-[25%] top-[23%] w-[70%] h-[70%] absolute">
+    <div className="w-[100%] md:w-[75%] h-[40vh] md:h-[70vh]">
         <iframe
         // width="1080"
         // height="500"

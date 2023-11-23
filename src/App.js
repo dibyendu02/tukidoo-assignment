@@ -4,15 +4,13 @@ import TopNavbar from './components/TopNavbar';
 import Interaction from './components/Interaction';
 import VideoPlayer from './components/VideoPlayer';
 import Header from './components/Header';
+import Content from './components/Content';
 
 function App() {
   return (
-    <div>
-      <Header/>
+    <div className="flex gap-5 " >
       <SideNavbar/>
-      <TopNavbar/>
-      <Interaction/>
-      <VideoPlayer/>
+      <Content/>
     </div>
   );
 }

@@ -27,12 +27,12 @@ const Header = () => {
     window.location.href = mailtoUrl;
   };
   return (
-    <div className="w-[87%] h-[8%] left-[10%] top-[2%] flex justify-between items-center absolute ">
+    <div className="w-[87vw]  flex justify-between items-center">
       <div className="flex gap-3">
-        <div className="bg-slate-200 p-3 text-gray-400 rounded-xl cursor-pointer">
+        <div className="bg-slate-200 p-3 text-gray-400 rounded-xl flex justify-center items-center cursor-pointer">
           <FaAngleLeft />
         </div>
-        <h1 className="text-3xl font-bold">Basic Mathematics 101</h1>
+        <h1 className=" text-lg md:text-3xl font-bold">Basic Mathematics 101</h1>
       </div>
       <div className="flex gap-5">
         <div
@@ -43,7 +43,7 @@ const Header = () => {
             <IoCall />
           </div>
 
-          <p className="font-bold">Call Teacher</p>
+          <p className="font-bold hidden md:block">Call Teacher</p>
         </div>
         <div
           className="flex items-center gap-2 cursor-pointer"
@@ -52,7 +52,7 @@ const Header = () => {
           <div className="bg-orange-400 text-white p-3 rounded-[50px]">
             <BiSupport />
           </div>
-          <p className="font-bold">Support</p>
+          <p className="font-bold hidden md:block">Support</p>
         </div>
       </div>
     </div>

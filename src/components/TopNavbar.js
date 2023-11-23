@@ -19,7 +19,7 @@ const TopNavbar = () => {
   ];
 
   return (
-    <div className="w-[87%] h-[8%] left-[10%] top-[12%] px-1 py-1 flex items-center gap-1 rounded-[50px] bg-slate-200 absolute">
+    <div className="w-[87vw] h-[8vh] px-1 py-1 flex items-center gap-1 rounded-[50px] bg-slate-200">
       {navbarItems.map((item) => (
         <div
           className={`w-44 h-[100%] flex justify-center items-center rounded-[50px] gap-2 font-bold cursor-pointer  ${
@@ -31,7 +31,7 @@ const TopNavbar = () => {
           key={item.id}
         >
           {item.icon}
-          <p>{item.label}</p>
+          <p className="hidden md:block ">{item.label}</p>
         </div>
       ))}
     </div>

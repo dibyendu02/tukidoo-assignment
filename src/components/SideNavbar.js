@@ -12,7 +12,7 @@ import profile from "../images/profile.png"
 
 const SideNavbar = () => {
   return (
-    <div className=" w-[7%] h-[100vh] bg-gray-200 flex flex-col items-center justify-between pt-2 pb-10 absolute">
+    <div className=" w-[7vw] h-[100vh] bg-gray-200 md:flex flex-col items-center justify-between pt-2 pb-10 hidden ">
         <div className="flex flex-col gap-5 items-center cursor-pointer">
             <img src={logo} alt="logo" className="w-16" />
             <CgMenuLeft style={{fontSize: "30px"}}/>

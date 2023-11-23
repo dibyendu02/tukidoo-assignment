@@ -55,6 +55,7 @@ You can deploy this application on platforms like Netlify, Vercel, or any other 
 ```plaintext
 src/
 |-- components/
+|   |-- Content.js
 |   |-- Header.js
 |   |-- Interaction.js
 |   |-- SideNavbar.js
